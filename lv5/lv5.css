@@ -1,0 +1,25 @@
+body {
+  color: #fff;
+  background-color: #87cefa;
+}
+
+.clock_frame {
+  width: 100%;
+}
+
+span {
+  display: block;
+  float: right;
+  width: 85%;
+  font-family: "Amatic SC", cursive;
+}
+
+span#clock_date {
+  text-align: right;
+  font-size: 0.5em;
+  padding-right: 0.5em;
+}
+
+span#clock_time {
+  font-size: 2em;
+}
